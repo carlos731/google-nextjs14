@@ -12,7 +12,7 @@ export default function HomeSearch() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!input.trim) return;
-    router.push(`/search/web?searchterm=${input}`);
+    router.push(`/search/web?searchTerm=${input}`);
   };
 
   const randomSearch = async (e) => {
@@ -24,7 +24,7 @@ export default function HomeSearch() {
 
     if (!response) return;
 
-    router.push(`/search/web?searchterm=${response}`);
+    router.push(`/search/web?searchTerm=${response}`);
     
     setRandomSearchLoading(false);
   }
