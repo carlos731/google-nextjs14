@@ -1,4 +1,4 @@
 Install:
 
 1- npm i react-icons
-2- 
+2- npm i html-react-parser
